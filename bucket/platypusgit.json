@@ -1,0 +1,37 @@
+{
+  "version": "0.1.1",
+  "description": "A dev-first git desktop app. Cross-platform, no account, no telemetry.",
+  "homepage": "https://www.platypusgit.com",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/jonassaa/platypusgit/releases/download/v0.1.1/PlatypusGit_x64_portable.zip",
+      "hash": "22b9838d83e982a942ec0d41df081b25892e22228fcddd1176be4572e739da1d"
+    }
+  },
+  "bin": [
+    "platypusgit.exe",
+    "pgit.cmd"
+  ],
+  "shortcuts": [
+    [
+      "platypusgit.exe",
+      "platypusgit"
+    ]
+  ],
+  "notes": [
+    "Scoop owns updates for this install: run `scoop update platypusgit`. The in-app updater is switched off here on purpose, so the two can never disagree about which copy you are running.",
+    "`platypusgit` and `pgit` are both on your PATH via Scoop shims.",
+    "Needs the WebView2 runtime. Windows 11 ships it and Windows 10 gets it with Edge, so it is almost certainly already there — but unlike the .msi this package cannot install it for you. If no window appears, install the Evergreen WebView2 Runtime from Microsoft."
+  ],
+  "checkver": {
+    "github": "https://github.com/jonassaa/platypusgit"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/jonassaa/platypusgit/releases/download/v$version/PlatypusGit_x64_portable.zip"
+      }
+    }
+  }
+}
