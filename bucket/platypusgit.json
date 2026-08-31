@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/jonassaa/platypusgit/releases/download/v0.2.0/PlatypusGit_x64_portable.zip",
-      "hash": "ce4ea94f719db3238fc9ad6d103dcc5fcb4c660d5818e4c46fb97de38f635f03"
+      "hash": "ce5cd8c287cef822687d54aaf8c40e76f4c76c925d2fcf15dc4a0c550a4ad6ac"
     }
   },
   "bin": [
