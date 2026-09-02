@@ -1,12 +1,12 @@
 {
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "A dev-first git desktop app. Cross-platform, no account, no telemetry.",
   "homepage": "https://www.platypusgit.com",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/jonassaa/platypusgit/releases/download/v0.3.1/PlatypusGit_x64_portable.zip",
-      "hash": "d6499067f01f8e791d0464194ef581b635e104b3e6c0d4e6fe129439cd3e9bb0"
+      "url": "https://github.com/jonassaa/platypusgit/releases/download/v0.4.0/PlatypusGit_x64_portable.zip",
+      "hash": "1218c3208a6bd1cb426efed1de9a831585dff2bd4eae02941d7d91a31faa919e"
     }
   },
   "bin": [
